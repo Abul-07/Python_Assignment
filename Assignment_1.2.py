@@ -36,4 +36,3 @@ if select in ('1', '2', '3', '4'):
     
 else:
         print("Invalid Input")
-break
