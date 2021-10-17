@@ -5,7 +5,7 @@ print("3. Multiplication")
 print("4. Division")
 
 while True:
-    select = input("Enter any of the above operation: ")
+    select = input("Enter any of the above operation (1,2,3,4): ")
 
     if select in ('1', '2', '3', '4'):
         num1 = int(input("Enter first number: "))
