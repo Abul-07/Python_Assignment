@@ -1,0 +1,15 @@
+Write an algorithm for finding x and y for the below sequence:
+  10,1,8,3,6,5,4,7,x,y
+
+Algorithm:
+
+Step 1: Start the program.
+Step 2: From the given data you can see that the given integer is all positive. If you observe the given sequence it contains the             positive integer of 1 to 10 although in a jumbled order, excluding 2 and 9.
+Step 3: So we can assume that "x" could be either 2 or 9, and "y" could be 2 or 9.
+Step 4: By using conditional operator,
+            if x == 2:
+              print the x value as 2
+            else:
+               print the value of 9 for x
+Step 5: From the above sequence if the "x" value is 2, then "y" value has to be 9. If "x" is 9 then "y" has to be 2.
+Step 6: End the program.
